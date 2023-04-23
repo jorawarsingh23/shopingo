@@ -168,7 +168,7 @@ export const NavBar = () => {
               <MenuIcon />
             </IconButton>
 
-            <Menu anchorEl={anchorElNav}></Menu>
+            <Menu anchorEl={anchorElNav} open={false}></Menu>
           </Box>
 
           <NavButton
