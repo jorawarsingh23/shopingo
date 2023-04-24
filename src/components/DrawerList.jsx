@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
   Box,
   Divider,
   ListItem,
   ListItemButton,
-  ListItemIcon,
   ListItemText,
   ListSubheader,
   Typography,
@@ -15,7 +11,7 @@ import {
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
-import axios from "axios";
+
 import { DrawerListItem } from "./DrawerListItem";
 
 export const DrawerList = ({ headingText, list }) => {
