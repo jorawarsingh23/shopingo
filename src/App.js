@@ -3,6 +3,7 @@ import { NavBar } from "./components/NavBar";
 import { FeatureNavBar } from "./components/FeatureNavBar";
 import { CssBaseline } from "@mui/material";
 import { CountryProvider } from "./contexts/CountryContext";
+import { HeroSection } from "./components/HeroSection";
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <CountryProvider>
         <NavBar />
         <FeatureNavBar />
+        <HeroSection />
       </CountryProvider>
     </CssBaseline>
   );
